@@ -99,12 +99,66 @@
         btn.disabled = true;
         alert(document.getElementById("userInput").value);
     }
+    </script>
     -->
     
-    <!-- STEP 8
+    <!-- STEP 8 -->
+    <!--
+    <button id="btn1">Click me</button>
+    
+    <script>
+    var btn = document.getElementById("btn1");
+    btn.addEventListener("click", function() { 
+        window.open("newpage.html", "newpage", "width=300, height=300,resizable=yes")
+    }, false);
 
-    
     </script>
+    -->
+        
+    <!-- STEP -->
+    <!--
+    <button id="btnStart">Start</button>
+    <button id="btnStop">Stop</button>
+        
+    <script>
+    var myVar;   
+    function showText() {
+       myVar = setInterval(alertFunc, 2000);
+    }    
+    function stopText() {
+       clearInterval(myVar);
+    }   
+    function alertFunc() {
+        console.log("Learning JavaScript is fun!");
+    }
+    var start = document.getElementById("btnStart");
+    var stop = document.getElementById("btnStop");
+    start.addEventListener("click", showText, false);
+    stop.addEventListener("click", stopText, false);
+    </script>
+    -->
+        
+    <!-- STEP 10 -->
+    <!--    
+    <select name="favoriteDog">
+    <option value="Options">Options</option>
+    <option value="Australian Shepard">Australian Shepard</option>
+    <option value="Cattle Dog">Cattle Dog</option>
+    <option value="Dachshund">Dachshund</option>
+    <option value="Border Collie">Border Collie</option>
+    </select>
+    <button id="btnSelect">Select</button>
     
+    <script>
+    var btn = document.getElementById("btnSelect");
+    btn.addEventListener("click", displayChoice, false);
+
+    function displayChoice() {
+    var choice = document.getElementsByName("favoriteDog")[0];
+    var dogBreed = choice.options[choice.selectedIndex].text;
+    alert(dogBreed);
+    }
+    </script>
+    -->
 	</body>
 </html>
