@@ -14,7 +14,7 @@
     }
     function enter(event) {
         var val = event.target.value;
-        if (val != "=" && val != "reset") {
+        if (val != "=") {
             var result = document.getElementById("result");
             result.value += val;   
         } else {
