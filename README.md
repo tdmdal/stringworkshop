@@ -1,1 +1,1 @@
-These are my files for Assignment 5
+This is the workshop on string analysis using python
