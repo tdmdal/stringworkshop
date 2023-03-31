@@ -1,5 +1,5 @@
 # TDMDAL String Workshop
-This Git repositroty contains to sets of Python code in Google Colab. The first one is an intorduction to using string in Python. The second one contains using medical text datasets and doing data manipulation, using language models to predict class of particular diagnosis
+This Git repository includes two sets of Python code on Google Colab. The initial set serves as an introduction to using strings in Python, while the second set involves using medical text datasets for data manipulation, utilizing language models to forecast the category of a specific diagnosis.
   
 
 The first file contains a [intro to string in Python](https://github.com/tdmdal/stringworkshop/blob/master/TDMDAL_StringWorkshp_intro2Strings.ipynb) 
